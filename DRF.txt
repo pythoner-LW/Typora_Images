@@ -1,0 +1,7 @@
+输入 env\Scripts\activate.bat 即可进入虚拟环境
+
+迁移
+python manage.py makemigrations
+python manage.py migrate
+
+运行python manage.py runserver

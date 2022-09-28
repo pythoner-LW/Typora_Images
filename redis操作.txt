@@ -1,0 +1,9 @@
+scrap redis 操作
+
+打开1个命令行（作为服务器端）
+切换到redis安装路径下
+输入 redis-cli -h 127.0.0.1 -p 6379 
+再输入 lpush RedisKe + 起始网址
+
+打开另外1个命令行（作为客户端）
+输入scrap runspider + 文件名
